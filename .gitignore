@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Cache directories
+.cache/
+.pytest_cache/
+
+# Streamlit
+.streamlit/
+
+# Database files
+*.db
+*.sqlite
+
+# API keys and sensitive data (IMPORTANT: Never commit these!)
+api_keys.txt
+secrets.json
+*api_key*
+credentials.json
+
+# Local development config with hardcoded keys
+config_with_key.py
+local_config.py
+config_notebook.py
+
+# Note: config.py is now SAFE for deployment (uses environment variables)
